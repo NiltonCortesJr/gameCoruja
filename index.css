@@ -1,0 +1,120 @@
+* {
+    margin: 0 auto;
+    border: 0 auto;
+    padding: 0 auto;
+    }
+body {
+    width: 85%;
+    padding: 20px 20px 20px 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    background-image: url(corujaFundo.jpg);
+    
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 3px solid blue;
+    border-radius: 40px;
+    background-color: black;
+    text-shadow: gray 2px 2px 2px;
+    color: white;
+    font-size: 30px;
+    width: 85%;
+    height: 50%;
+    margin-top: 3%;
+    font-weight: bold;
+}
+.texto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 25px 25px;
+    border: 3px solid blue;
+    border-radius: 40px;
+    background-color: black;
+    text-shadow: gray 2px 2px 2px;
+    color: white;
+    font-size: 20px;
+    width: 85%;
+    height: 50%;
+    font-weight: bold;
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items:center;
+    padding: 0 20px 0 10px;
+    background-color: black;
+    text-shadow: gray 2px 2px 2px;
+    color: white;
+    font-size: 30px;
+    width: 70%;
+    height: 50%;
+    font-weight: bold;
+}
+.titulo2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding: 0 10px 0 20px;
+    background-color: black;
+    text-shadow: gray 2px 2px 2px;
+    color: white;
+    font-size: 25px;
+    width: 70%;
+    height: 50%;
+    font-weight: bold;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 40px;
+    padding: 20px 20px;
+}
+
+
+.escolhaGeral {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border: 3px solid blue;
+    border-radius: 40px;
+    background-color: black;
+    width: 90%;
+    height: 50%;
+    margin-top: 2%;
+    
+}
+
+.escolha {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;;
+    color: white;
+    font-size: 30px;
+    text-shadow: whitesmoke 1px 1px 1px;
+}
+h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3.23em;
+    padding-top: 25px;
+}
+.escolhaGeral a:hover {
+    color: white;
+    font-weight: bold;
+}
