@@ -1,14 +1,16 @@
-var escolha = ""
-while (escolha != 1 && escolha != 2) {
-  escolha = prompt("Qual é sua escolha? \n 1 - Solicitar monitoria? \n 2 - Assistir vídeo-aulas?")
-  if (escolha == 1) {
-    window.location.href = "./fase1c1.html"
-  }
+function botaoResponder(){
+  var escolha = ""
+  while (escolha != 1 && escolha != 2) {
+    escolha = prompt("Qual é sua escolha? \n 1 - Solicitar monitoria? \n 2 - Assistir vídeo-aulas?")
+    if (escolha == 1) {
+      window.location.href = "./fase1c1.html"
+    }
 
-  else if (escolha == 2) {
-    window.location.href = "./fase2c2.html"
-  }
+    else if (escolha == 2) {
+      window.location.href = "./fase2c2.html"
+    }
 
-  else {alert('Escolha errada')
-  } 
+    else {alert('Escolha errada')
+    } 
+  }
 }
